@@ -1,4 +1,4 @@
-name: NASA Project Ci
+name: NASA Project CI
 on:
  push: 
   branches: [master]
@@ -6,7 +6,7 @@ on:
   branches: [master]
 jobs: 
  build: 
-  runs_on:  ubunto-latest
+  runs_on:  ubuntu-latest
   steps: 
    - uses: actions/checkout@v2
    - name: Use node.js version 14.19
